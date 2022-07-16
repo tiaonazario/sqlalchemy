@@ -1,7 +1,7 @@
-from infra.repository.atores_repository import AtoresRepository
+from infra.repository.filmes_repository import FilmesRepository
 
-repo = AtoresRepository()
+repo = FilmesRepository()
 
-response = repo.select()
+response = repo.select_genero("Acão")
 
 print(response)
