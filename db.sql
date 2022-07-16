@@ -1,3 +1,4 @@
+-- com a databe já criada
 CREATE TABLE IF NOT EXISTS filmes (
     id SERIAL PRIMARY KEY,
     titulo VARCHAR(40) UNIQUE NOT NULL,

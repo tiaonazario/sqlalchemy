@@ -1,5 +1,5 @@
 from infra.configs.base import Base
-from sqlalchemy import create_engine, Integer, String, Column
+from sqlalchemy import Integer, String, Column
 
 
 class Filmes(Base):

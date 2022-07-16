@@ -1,9 +1,7 @@
-from infra.repository.filmes_repository import FilmesRepository
+from infra.repository.atores_repository import AtoresRepository
 
-repo = FilmesRepository()
+repo = AtoresRepository()
 
-repo.insert("Thor: Amor e Trovão", "Ação", 2022)
-repo.delete(5)
-data = repo.select()
+response = repo.select()
 
-print(data)
+print(response)
